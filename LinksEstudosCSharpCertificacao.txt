@@ -1,0 +1,2 @@
+Links estudos C# certificação
+Tipos (Guia de Programação em C#) - https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/index#types-of-literal-values

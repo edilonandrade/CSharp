@@ -1,0 +1,17 @@
+Links estudos C# certificação
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/index
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/value-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/implicitly-typed-local-variables
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/anonymous-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/nullable-types/index
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/casting-and-type-conversions
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/boxing-and-unboxing
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/using-type-dynamic
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/value-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/reference-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/index
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/anonymous-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/generics/index
+https://docs.microsoft.com/pt-br/dotnet/standard/data/xml/conversion-of-xml-data-types
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/integral-types-table
