@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8DFBD7C6-5C7D-46A3-A71E-7ED770033D9A}</ProjectGuid>
+    <ProjectGuid>{77A70540-3F27-46F9-BD92-C54A53195C37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>certificacao_csharp_pt1</RootNamespace>
-    <AssemblyName>certificacao-csharp-pt1</AssemblyName>
+    <RootNamespace>certificacao_csharp_roteiro</RootNamespace>
+    <AssemblyName>certificacao-csharp-roteiro</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -22,6 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,8 +31,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,11 +47,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\antes\TiposDeValor.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\1 - Tipos de Valor\depois\TiposDeValor.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\antes\Inteiros.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\2 - Tipos Inteiros\depois\Inteiros.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\antes\PontoFlutuante.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\3 - Tipos de Ponto Flutuante\depois\PontoFlutuante.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\antes\Decimal.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\4 - Decimal\depois\Decimal.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\antes\Booleanos.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\5 - Booleanos\depois\Booleanos.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\antes\Estruturas.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\6 - Estruturas Definidas pelo Usuário\depois\Estruturas.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\antes\Enumeracoes.cs" />
+    <Compile Include="Aula1 - criar tipos de valor, incluindo estruturas e enum\7 - Enums\depois\Enumeracoes.cs" />
+    <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
